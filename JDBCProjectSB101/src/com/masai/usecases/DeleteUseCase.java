@@ -5,7 +5,12 @@ package com.masai.usecases;
 import java.util.Scanner;
 
 import com.masai.Dao.HODDao;
+<<<<<<< HEAD
 import com.masai.DaoImpl.HODDaoImpl;
+=======
+
+import DaoImpl.HODDaoImpl;
+>>>>>>> main
 
 public class DeleteUseCase {
 

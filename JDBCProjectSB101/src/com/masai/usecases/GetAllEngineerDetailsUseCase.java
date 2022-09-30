@@ -3,10 +3,18 @@ package com.masai.usecases;
 import java.util.List;
 
 import com.masai.Dao.HODDao;
+<<<<<<< HEAD
 import com.masai.DaoImpl.HODDaoImpl;
 import com.masai.bean.Engineer;
 import com.masai.exception.MyException;
 
+=======
+import com.masai.bean.Engineer;
+import com.masai.exception.MyException;
+
+import DaoImpl.HODDaoImpl;
+
+>>>>>>> main
 public class GetAllEngineerDetailsUseCase {
 
 	public static void main(String[] args) {

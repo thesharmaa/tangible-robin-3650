@@ -4,10 +4,18 @@ import java.util.Scanner;
 
 import com.masai.Dao.EngineerDao;
 import com.masai.Dao.HODDao;
+<<<<<<< HEAD
 import com.masai.DaoImpl.EngineerDaoImpl;
 import com.masai.DaoImpl.HODDaoImpl;
 import com.masai.exception.MyException;
 
+=======
+import com.masai.exception.MyException;
+
+import DaoImpl.EngineerDaoImpl;
+import DaoImpl.HODDaoImpl;
+
+>>>>>>> main
 public class LoginEngineerUseCase {
 
 	public static void main(String[] args) {
@@ -25,9 +33,12 @@ public class LoginEngineerUseCase {
 		 boolean x=dao.EngineerLogin(username, password);
 			System.out.println("Welcome "+ username+" !");
 			System.out.println("---------------------------------------");
+<<<<<<< HEAD
 			if(x==true) {
 				EngineerDriver.update(username);;
 			}
+=======
+>>>>>>> main
 			
 		} catch (MyException e) {
 			// TODO Auto-generated catch block
