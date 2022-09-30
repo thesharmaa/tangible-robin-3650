@@ -3,10 +3,16 @@ package com.masai.usecases;
 import java.util.Scanner;
 
 import com.masai.Dao.HODDao;
+<<<<<<< HEAD
+import com.masai.DaoImpl.HODDaoImpl;
+import com.masai.bean.Engineer;
+
+=======
 import com.masai.bean.Engineer;
 
 import DaoImpl.HODDaoImpl;
 
+>>>>>>> main
 public class EngineerRegisterUseCase {
 
 	public static void main(String[] args) {
