@@ -1,6 +1,5 @@
 Online Hardware and software support system
 
-Problem Description:
 The system will be available on an online platform for 24x7 access to the employees, the engineers, the Head of the Department and the
 administration. It Helps keeping your IT staff productive with fast, accurate, remote technical support for your System environment. It provides
 defect support for a broad range of Products running on System hardware.
@@ -15,7 +14,7 @@ Users:
 3. Employee
 
 Roles for the HOD:
- Login into the system
+1.Login into the system
  Register a new Engineer with a username(email) and password and the category (Hardware/software)
  Can see List of all the Registered Engineers.
  Can Delete any Engineers from the system
